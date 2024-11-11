@@ -80,7 +80,7 @@ while true; do
 	echo "11) Display size of journal log file."
 	echo "12) Clear entries from the journal log file."
 	echo "13) Check for orphaned packages."
-	echo "14 All options (can be dangerous!)."
+	echo "14) All options (can be dangerous!)."
 	echo
 
 # Prompt user for choice.
