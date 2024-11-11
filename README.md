@@ -18,8 +18,8 @@ while providing the efficiency that power users crave, making system management 
 
 **Installation**
 
-- Download the Arch Care folder, which contains the arch_care.sh program.
-- Extract the folder to your desired directory.
+1. Download the Arch Care folder, which contains the arch_care.sh program.
+2. Extract the folder to your desired directory.
 
 **Usage**
 
