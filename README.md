@@ -72,3 +72,5 @@ Allows you to optionally clear journal logs older than two weeks.
 **Tests**
 
 All features have been tested by a professional QA Tester, to ensure smooth functionality. Each command has been validated for typical Arch Linux use cases, with careful attention to maintaining system integrity and security. This script is designed for Arch Linux users who prefer straightforward, minimalistic maintenance without unnecessary extras.
+
+Disclaimer: This Arch Care tool is provided as-is, without any warranties or guarantees of any kind, including but not limited to functionality, security, or compatibility. Use this tool at your own risk. The developer is not responsible for any data loss, damage to files, or other consequences that may arise from the use or misuse of this tool. Ensure that you have backups of any critical data before using the file shredder, as data deleted with this tool is irrecoverable.
