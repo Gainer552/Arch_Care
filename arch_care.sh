@@ -43,10 +43,10 @@ cat << "EOF"
 EOF
 
 echo
-echo "ArchCare is a powerful, all-in-one maintenance script that optimizes your Arch Linux system with just a few clicks, 
+echo "Arch Care is a powerful, all-in-one maintenance script that optimizes your Arch Linux system with just a few clicks, 
 from updating packages to clearing caches and removing redundant files. Designed for simplicity and efficiency, 
 it saves you time and hassle, keeping your system lean, clean, and running at peak performance. 
-ArchCare makes Arch Linux accessible for newcomers by simplifying essential maintenance tasks, 
+Arch Care makes Arch Linux accessible for newcomers by simplifying essential maintenance tasks, 
 while providing the efficiency that power users crave, making system management effortless for all skill levels.
 Begin by enabling/disabling sudo timeout, then make selection(s), finally press CTRL + C to exit!"
 sleep 15s
@@ -80,8 +80,9 @@ while true; do
 	echo "11) Display size of journal log file."
 	echo "12) Clear entries from the journal log file."
 	echo "13) Check for orphaned packages."
-	echo "14) All options (can be dangerous!)."
-	echo
+	echo "14) Clear command history."
+	echo "15) All options (can be dangerous!)."
+	
 
 # Prompt user for choice.
 	read -p "Make a selection: " choice
@@ -102,7 +103,8 @@ case $choice in
 	11) sudo du -sh .config/ ;;
 	12) sudo du -sh /var/log/journal ;;
 	13) sudo pacman -Qtd ;;
-	14) 
+	14) sudo history -c;;
+	15) 
 	# Executes all commands
 	read -p "This will: remove cached packages from pacman/yay, remove unnecessary packages from yay, delete orphaned packages, 
 clear the contents of the .cache directory, and remove entries from the journal log file. Would you like to run all commands?" x_all_commands
