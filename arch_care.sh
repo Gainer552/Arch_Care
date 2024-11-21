@@ -82,6 +82,7 @@ while true; do
 	echo "13) Check for orphaned packages."
 	echo "14) Clear command history."
 	echo "15) All options (can be dangerous!)."
+ 	echo
 	
 
 # Prompt user for choice.
